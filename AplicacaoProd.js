@@ -1,0 +1,12 @@
+"use strict";
+exports.__esModule = true;
+var Produto_1 = require("./Produto");
+var p1;
+var p2;
+p1 = new Produto_1.Produto(110125, "produto1", "este produto é mt legal", 15.00, 6, "link");
+p2 = new Produto_1.Produto(220215, "produto2", "este produto é mt top", 20.00, 9, "link2");
+console.log(p1);
+console.log("");
+console.log(p2);
+console.log(p1.getInfo());
+console.log(p2.getInfo());
